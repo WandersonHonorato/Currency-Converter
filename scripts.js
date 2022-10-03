@@ -25,6 +25,7 @@ function Converter() {
       "url(https://miro.medium.com/max/1400/1*Cq55pULfLn558iZiZea9Og.png)";
     resultado.innerHTML = ` £ ${res.toFixed(2)}`;
   }
+}
 
 function Zerar() {
   var inputValor = document.getElementById("valor");
