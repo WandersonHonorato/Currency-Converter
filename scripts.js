@@ -1,6 +1,6 @@
-var moedaDeConversao = ""; 
+var moedaDeConversao = "";
 var valorMoeda = {
-  euro: 5.16,  // cotação atual.
+  euro: 5.16,
   dolar: 5.09,
   libra: 5.95
 };
@@ -25,7 +25,6 @@ function Converter() {
       "url(https://miro.medium.com/max/1400/1*Cq55pULfLn558iZiZea9Og.png)";
     resultado.innerHTML = ` £ ${res.toFixed(2)}`;
   }
-}
 
 function Zerar() {
   var inputValor = document.getElementById("valor");
