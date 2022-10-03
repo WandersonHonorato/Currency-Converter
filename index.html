@@ -1,52 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moeda</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="/javascript.js"></script>
-</head>
 <body id="allone">
-    <div id="all">
-      <div id="imagem">
+  <div id="all">
+    <div id="imagem">
+    </div>
+    <div class="container">
+      <div id="primeirobloco">
+        <h1 class="page-title">
+          Conversor de Moedas
+        </h1>
+        <p class="titulo2"> <b> Descubra o valor do REAL (BRL) em diferentes moedas </b> </p>
       </div>
-      <div class="container">
-        <div id="primeirobloco">
-          <h1 class="page-title">
-            Conversor de Moedas
-          </h1>
-          <p class="titulo2"> <b> Descubra o valor da moeda (BRL) em diferentes moedas </b> </p>
-        </div>
-        <div id="bloco2">
-          <p class="page-subtitle">
-            <b> Selecione a Moeda para Conversão:</b>
-          </p>
-          <div id="selecionadores">
-            <div>
-              <input type="radio" id="dolar" name="moeda" value="HTML" onclick="definirDolar()">
-              <label for="moeda1">Dólar</label>
-            </div>
-            <div>
-              <input type="radio" id="euro" name="moeda" value="HTML" onclick="definirEuro()">
-              <label for="moeda2">Euro</label>
-            </div>
-            <div>
-              <input type="radio" id="libra" name="moeda" value="HTML" onclick="definirLibra()">
-              <label for="moeda3">Libra</label>
-            </div>
-            <label id="titulo2" for="moeda"> <b> Insira o valor: </b></label>
-            <input type="number" id="valor"><br>
+      <div id="bloco2">
+        <p class="page-subtitle">
+          <b> Selecione a Moeda para Conversão:</b>
+        </p>
+        <div id="selecionadores">
+          <div>
+            <input type="radio" id="dolar" name="moeda" value="HTML" onclick="definirDolar()">
+            <label for="moeda1">Dólar</label>
           </div>
-          <button id="button" class="botaoconverter" type="submit" onclick="Converter()">Converter</button>
-          <button class="botaozerar" id="button" type="submit" onclick="Zerar()">Zerar</button>
-          <h2 id="valorConvertido"></h2>
+          <div>
+            <input type="radio" id="euro" name="moeda" value="HTML" onclick="definirEuro()">
+            <label for="moeda2">Euro</label>
+          </div>
+          <div>
+            <input type="radio" id="libra" name="moeda" value="HTML" onclick="definirLibra()">
+            <label for="moeda3">Libra</label>
+          </div>
+          <label id="titulo2" for="moeda"> <b> Insira o valor: </b></label>
+          <input type="number" id="valor"><br>
         </div>
-      </div>
-      <div id="resultado">
+        <button id="button" class="botaoconverter" type="submit" onclick="Converter()">Converter</button>
+        <button class="botaozerar" id="button" type="submit" onclick="Zerar()">Zerar</button>
+        <h2 id="valorConvertido"></h2>
       </div>
     </div>
+    <div id="resultado">
     </div>
-  </body>
-</html>
+  </div>
+  </div>
+</body>
