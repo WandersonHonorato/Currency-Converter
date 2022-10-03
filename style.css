@@ -1,145 +1,140 @@
 body {
-    font-family: arial, sans-serif;
-    background-color: black;
-    background-size: 100vh;
-    color: #19164b;
-  }
-  
-  #primeirobloco {
-    padding: 8px;
-    margin-bottom: 20px;
-    border-radius: 18px;
-    background: white;
-  }
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .titulo2 {
-    color: #6c6c94;
-  }
-  
-  .page-title {
-    color: #19164b;
-    margin: 0 0 5px;
-    padding: 10px;
-  }
-  
-  .page-subtitle {
-    color: #19164b;
-    margin-top: 5px;
-  }
-  
-  #titulo2 {
-    margin-top: 15px;
-  }
-  
-  input {
-    margin-top: 8px;
-    padding: 6px;
-    border-radius: 5px;
-    border: 2px solid #19164b;
-  }
-  
-  #valor {
-    width: 200px;
-    margin: auto;
-    margin-top: 9px;
-    border-radius: 10px;
-  }
-  
-  #selecionadores {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #button {
-    width: 140px;
-    margin: auto;
-    margin-top: 5px;
-    padding: 5px;
-    border: none;
-    color: #19164b;
-    font-weight: bold;
-    cursor: pointer;
-  }
+  font-family: arial, sans-serif;
+  background-color: black;
+  background-size: 100vh;
+  color: #19164b;
+}
 
-  #button:hover {
-    color: #ffffff;
-    background-color: #6c6c94;
-  }
-  
-  .botaozerar {
-    background: #a9c0f2;
-  }
-  
-  .botaoconverter {
-    background: #ffa051;
-  }
-  
-  label {
-    color: #19164b;
-  }
-  
-  button {
-    margin-top: 12px;
-    border-radius: 10px;
-    background: #ffffff;
-  }
-  
-  #resultado {
-    margin: 15px;
-    margin-top: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    min-height: 50px;
-    border-radius: 18px;
-    box-shadow: 0px 4px 5px rgba(14, 59, 63, 0.14),
-      0px 1px 10px rgba(102, 102, 102, 0.12), 0px 2px 4px rgba(41, 41, 41, 0.2);
-    background: #131047;
-  }
-  
-  #allone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-  }
-  
-  #all {
-    width: fit-content;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 1px 1px 2px;
-    margin: auto;
-    background: #f5f5ff;
-    position: relative;
-  }
-  
-  #bloco2 {
-    padding: 15px;
-    border-radius: 18px;
-    background: white;
-  }
-  
-  h2 {
-    color: white;
-    font-size: 30px;
-  }
-  
-  #imagem {
-    border-radius: 2rem;
-    width: 80px;
-    height: 45px;
-    background: #ffa051;
-    position: absolute;
-    right: calc(50% - 42px);
-    top: 428px;
-    background-size: cover;
-    background-position: 50%;
-    border: 3px solid #ffa051;
-  }
+#primeirobloco {
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  background: white;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo2 {
+  color: #6c6c94;
+}
+
+.page-title {
+  color: #19164b;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+.page-subtitle {
+  color: #19164b;
+  margin-top: 5px;
+}
+
+#titulo2 {
+  margin-top: 15px;
+}
+
+input {
+  margin-top: 8px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 2px solid #19164b;
+}
+
+#valor {
+  width: 200px;
+  margin: auto;
+  margin-top: 9px;
+  border-radius: 10px;
+}
+
+#selecionadores {
+  display: flex;
+  flex-direction: column;
+}
+
+#button {
+  width: 140px;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+  border: none;
+  color: #19164b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botaozerar {
+  background: #a9c0f2;
+}
+
+.botaoconverter {
+  background: #ffa051;
+}
+
+label {
+  color: #19164b;
+}
+
+button {
+  margin-top: 12px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+#resultado {
+  margin: 15px;
+  margin-top: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  min-height: 50px;
+  border-radius: 18px;
+  box-shadow: 0px 4px 5px rgba(14, 59, 63, 0.14),
+    0px 1px 10px rgba(102, 102, 102, 0.12), 0px 2px 4px rgba(41, 41, 41, 0.2);
+  background: #131047;
+}
+
+#allone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#all {
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px;
+  margin: auto;
+  background: #f5f5ff;
+  position: relative;
+}
+
+#bloco2 {
+  padding: 15px;
+  border-radius: 18px;
+  background: white;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+#imagem {
+  border-radius: 60px;
+  width: 65px;
+  height: 43px;
+  background: #ffa051;
+  position: absolute;
+  right: calc(50% - 35px);
+  top: 439px;
+  background-size: cover;
+  background-position: 50%;
+  border: 3px solid #ffa051;
+}
