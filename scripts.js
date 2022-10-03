@@ -1,6 +1,6 @@
-var moedaDeConversao = "";
+var moedaDeConversao = ""; 
 var valorMoeda = {
-  euro: 5.16,
+  euro: 5.16,  // cotação atual.
   dolar: 5.09,
   libra: 5.95
 };
