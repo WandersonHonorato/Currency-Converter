@@ -1,5 +1,5 @@
 # Currency-Converter
-Calculadora de IMC, desenvolvida com HTML5, CSS3 e Javascript. <br>
+Conversor  de Moeda, desenvolvida com HTML5, CSS3 e Javascript. <br>
 Deploy: https://currency-converter-three-xi.vercel.app/ <br>
 <hr> 
 
