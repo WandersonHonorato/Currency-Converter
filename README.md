@@ -4,4 +4,5 @@ Deploy: https://currency-converter-three-xi.vercel.app/ <br>
 <hr> 
 
 
-![screen_model](https://user-images.githubusercontent.com/102002978/193896851-b108b61b-983c-44c4-ace4-f82f172b3596.PNG)
+
+![img](https://user-images.githubusercontent.com/102002978/193897541-45e58e27-57ca-47db-899a-d0f9f9bc8499.png)
