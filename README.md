@@ -1,6 +1,7 @@
 # Currency-Converter
 Conversor de moeda, que realiza a conversão da moeda Real (BRL) em Dólar (US$), Euro (€) e Libra (£). <br>
 Desenvolvido em HTML5, CSS3 e Javascript. <br>
+<hr>
 Projeto funcionando: https://currency-converter-three-xi.vercel.app/ <br>
 <hr> 
 
