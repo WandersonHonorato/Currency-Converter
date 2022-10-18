@@ -7,4 +7,4 @@ Projeto funcionando: https://currencyconverter-eight.vercel.app/ <br>
 
 
 
-![img](https://user-images.githubusercontent.com/102002978/193897541-45e58e27-57ca-47db-899a-d0f9f9bc8499.png)
+![wswd](https://user-images.githubusercontent.com/102002978/196446371-389e46af-0a99-4e6c-8816-b7faeade950d.PNG)
