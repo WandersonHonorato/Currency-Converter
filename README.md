@@ -6,5 +6,5 @@ Projeto funcionando: https://currencyconverter-eight.vercel.app/ <br>
 <hr> 
 
 
+![Conversor de Moeda](https://user-images.githubusercontent.com/102002978/197439044-50b41a66-b855-4d40-96df-7878c36c8008.PNG)
 
-![wswd](https://user-images.githubusercontent.com/102002978/196446371-389e46af-0a99-4e6c-8816-b7faeade950d.PNG)
